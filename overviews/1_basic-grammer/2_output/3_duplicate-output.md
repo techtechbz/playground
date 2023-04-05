@@ -44,7 +44,7 @@ console.log("a" + "b")
 console.log("c" + "d")
 
 // node.js
-import process
+import process from 'node:process';
 
 process.stdout.write("a")
 process.stdout.write("b" + "\n")

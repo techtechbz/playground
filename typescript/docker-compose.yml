@@ -1,0 +1,18 @@
+version: '3.7'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: playground
+    volumes:
+      - ./__tests__:/app/__tests__
+      - ../testcase:/app/testcase
+      - ./1_basic-grammer:/app/1_basic-grammer
+      - ./2_stl:/app/2_stl
+      - ./3_algorithm:/app/3_algorithm
+      - ./4_code-recipe:/app/4_code-recipe
+    command: yarn execute
+    # command: yarn test:ci
+    # command: yarn test:coverage
