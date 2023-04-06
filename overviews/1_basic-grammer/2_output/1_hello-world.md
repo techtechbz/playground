@@ -8,7 +8,7 @@ Hello, world!
 ## c++
 
 ```c++
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main(void) {
@@ -20,6 +20,7 @@ int main(void) {
 
 ```python
 print("Hello, world!")
+
 ```
 
 ## TypeScript

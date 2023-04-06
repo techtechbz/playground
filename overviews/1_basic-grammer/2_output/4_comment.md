@@ -17,7 +17,7 @@ Hello, world!
 ## c++
 
 ```c++
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main(void) {
@@ -39,6 +39,7 @@ Multi-line comment out
 Multi-line comment out
 """
 print("Hello, world!")
+
 ```
 
 ## TypeScript

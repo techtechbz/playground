@@ -21,7 +21,7 @@
 ## c++
 
 ```c++
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main() {
@@ -37,10 +37,11 @@ cout << 0 << endl;
 
 ```python
 print(0)
-    print(1)
-        print(2)
-            print(3)
-                print(4)
+print(1)
+print(2)
+print(3)
+print(4)
+
 ```
 
 ## TypeScript

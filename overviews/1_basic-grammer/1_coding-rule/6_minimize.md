@@ -14,7 +14,7 @@ cd
 ## c++
 
 ```c++
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;int main(){cout<<"a";cout<<"b"<<endl;cout<<"c"<<"d"<<endl;}
 ```
 
@@ -24,6 +24,7 @@ using namespace std;int main(){cout<<"a";cout<<"b"<<endl;cout<<"c"<<"d"<<endl;}
 print("a", end="")
 print("b")
 print("c"+"d")
+
 ```
 
 ## TypeScript

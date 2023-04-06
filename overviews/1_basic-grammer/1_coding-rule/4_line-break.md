@@ -21,7 +21,7 @@
 ## c++
 
 ```c++
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main() {
@@ -36,9 +36,15 @@ int main() {
 
 ```python
 print("柿食えば\
-    鐘が鳴るなり\
-    法隆寺"
-)
+鐘が鳴るなり\
+法隆寺"
+      )
+
+print("柿食えば"
+      "鐘が鳴るなり"
+      "法隆寺"
+      )
+
 ```
 
 ## TypeScript

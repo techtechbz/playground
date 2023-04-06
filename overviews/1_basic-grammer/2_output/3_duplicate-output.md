@@ -14,7 +14,7 @@ cd
 ## c++
 
 ```c++
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main() {
@@ -35,6 +35,7 @@ print("c" + "d")
 print("c", "d")
 > c d
 """
+
 ```
 
 ## TypeScript
