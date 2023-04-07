@@ -1,9 +1,7 @@
-import fs from 'node:fs';
-
-const data = fs.readFileSync('./testcase/1_basic-grammer/1_coding-rule/indent.txt', {encoding: 'ascii'})
+import { getTestData } from "../../getTestCase"
 
 describe('indent test', () => {
   test('get text test', () => {
-    expect(data).toBe(`0\r\n1\r\n2\r\n3\r\n4`)
+    expect(getTestData(__filename)).toBe(`0\r\n1\r\n2\r\n3\r\n4`)
   })
 })
