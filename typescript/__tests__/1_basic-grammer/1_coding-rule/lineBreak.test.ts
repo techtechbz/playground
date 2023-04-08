@@ -1,9 +1,8 @@
-import fs from 'node:fs';
-
-const data = fs.readFileSync('./testcase/1_basic-grammer/1_coding-rule/line-break.txt', { encoding: 'utf-8' })
+import { lineBreakHaiku } from "@/grammer/1_coding-rule/lineBreak"
+import { getTestData } from "../../getTestCase"
 
 describe('line break test', () => {
   test('get text test', () => {
-    expect(data).toBe('柿食えば鐘が鳴るなり法隆寺')
+    expect(getTestData(__filename)).toBe(lineBreakHaiku)
   })
 })

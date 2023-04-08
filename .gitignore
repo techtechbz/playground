@@ -451,3 +451,5 @@ pyrightconfig.json
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,c++,python,pycharm+all,node
+
+directory_memo.txt
