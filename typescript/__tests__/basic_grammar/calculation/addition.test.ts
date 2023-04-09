@@ -1,4 +1,4 @@
-import { naturalNumberAdditionCase, decimalAdditionCase, negativeNumberAdditionCase, stringAdditionCase } from '@/grammer/3_calculation/addition';
+import { naturalNumberAdditionCase, decimalAdditionCase, negativeNumberAdditionCase, stringAdditionCase } from '@/grammar/calculation/addition';
 import { getTestCases } from '../../getTestCase';
 
 const testCases = getTestCases(__filename)

@@ -1,5 +1,5 @@
 import { calculatingNaturalNumberQuotient, naturalNumberQuotient, decimalQuotient, divideByNaturalNumberQuotient, divideNaturalNumberByDecimalQuotient, calculatingDecimalQuotient,
-  quotientOfNegativeNumber, divideByNegativeNumberQuotient, positiveNumberQuotient, divideByZeroQuotient, zeroDivision } from '@/grammer/3_calculation/quotient';
+  quotientOfNegativeNumber, divideByNegativeNumberQuotient, positiveNumberQuotient, divideByZeroQuotient, zeroDivision } from '@/grammar/calculation/quotient';
 import { getTestCases } from '../../getTestCase';
 
 const testCases = getTestCases(__filename)

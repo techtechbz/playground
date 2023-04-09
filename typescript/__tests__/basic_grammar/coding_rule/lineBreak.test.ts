@@ -1,4 +1,4 @@
-import { lineBreakHaiku } from "@/grammer/1_coding-rule/lineBreak"
+import { lineBreakHaiku } from "@/grammar/coding_rule/lineBreak"
 import { getTestData } from "../../getTestCase"
 
 describe('line break test', () => {

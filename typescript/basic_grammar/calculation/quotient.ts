@@ -1,4 +1,4 @@
-export const calculatingNaturalNumberQuotient = 4 / 2
+export const calculatingNaturalNumberQuotient = 10 / 2
 export const naturalNumberQuotient = 8.4 / 2.1
 export const decimalQuotient = 9 / 2
 export const divideByNaturalNumberQuotient = 9.0 / 2

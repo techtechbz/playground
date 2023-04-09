@@ -1,5 +1,5 @@
 import { decimalSubtractionCase, naturalNumberSubtractionCase, negativeNumberResultSubtractionCase,
-   subtractFromNegativeNumberCase, subtractingNegativeNumberCase  } from '@/grammer/3_calculation/subtraction';
+   subtractFromNegativeNumberCase, subtractingNegativeNumberCase  } from '@/grammar/calculation/subtraction';
 import { getTestCases } from '../../getTestCase';
 
 const testCases = getTestCases(__filename)
