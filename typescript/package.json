@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "execute": "./node_modules/.bin/ts-node ./1_basic-grammer/3_calculation/quotient.ts",
+    "execute": "./node_modules/.bin/ts-node ./basic_grammar/calculation/quotient.ts",
     "test:ci": "jest --ci",
     "test:coverage": "jest --coverage"
   },
