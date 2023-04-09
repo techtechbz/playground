@@ -19,7 +19,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/grammer/*": ["1_basic-grammer/*"]
+      "@/grammar/*": ["basic_grammar/*"]
     }
   },
 }
