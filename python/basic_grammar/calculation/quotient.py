@@ -1,4 +1,4 @@
-calculating_natural_number_quotient = 4 / 2
+calculating_natural_number_quotient = 10 / 2
 natural_number_quotient = 8.4 / 2.1
 decimal_quotient = 9 / 2
 divide_by_natural_number_quotient = 9.0 / 2
