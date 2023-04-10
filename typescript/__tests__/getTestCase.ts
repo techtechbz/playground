@@ -9,7 +9,7 @@ export const getTestData = (testFilename: string): string => {
   if (match[2] === undefined) {
     testCaseTextFileName = `${match[1]}.txt`
   } else {
-    testCaseTextFileName = `${match[1]}-${match[2].toLowerCase()}.txt`
+    testCaseTextFileName = `${match[1]}_${match[2].toLowerCase()}.txt`
   }
 
   const testCaseTextFullPath = testFilename.replace('__tests__', 'testcase').replace(filenamePattern, testCaseTextFileName)
