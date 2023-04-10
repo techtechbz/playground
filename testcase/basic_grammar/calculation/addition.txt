@@ -2,5 +2,5 @@
 6.3
 -4
 Hello, world!
-["apple", "banana", "orange"]
+['apple', 'banana', 'orange']
 {'name': 'Tom', 'age': 34, 'breakfirst': 'apple'}
