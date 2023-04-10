@@ -1,4 +1,4 @@
-import { naturalNumberMultiplicationCase, naturalNumberResultMultiplicationCase, decimalResultCase, multiplicatingDecimalCase,
+import { naturalNumberMultiplicationCase, naturalNumberResultMultiplicationCase, decimalResultCase, multiplyingDecimalCase,
   decimalByDecimalReturnsNaturalNumberCase, multiplicationOverNegativeNumbersCase, negativeNumberResultMultiplicationCase, negativeNumberCalculatingMultiplicationCase } from '@/grammar/calculation/multiplication';
 import { getTestCases } from '../../getTestCase';
 
@@ -22,7 +22,7 @@ describe('multiplication test', () => {
   })
 
   test('multiplicating decimal case test', () => {
-    expect(testCases[3]).toBe(multiplicatingDecimalCase.toString())
+    expect(testCases[3]).toBe(multiplyingDecimalCase.toString())
   })
 
   test('decimal by decimal returns natural number case test', () => {
