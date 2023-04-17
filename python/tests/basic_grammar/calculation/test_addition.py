@@ -19,19 +19,25 @@ class TestAddition:
         assert len(self.test_cases_list) == 6
     
     def test_natural_number_addition_case(self):
+        assert type(natural_number_addition_case) == int
         assert natural_number_addition_case == int(self.test_cases_list[0])
 
     def test_decimal_addition_case(self):
+        assert type(decimal_addition_case) == float
         assert decimal_addition_case == float(self.test_cases_list[1])
 
     def test_negative_number_addition_case(self):
+        assert type(negative_number_addition_case) == int
         assert negative_number_addition_case == int(self.test_cases_list[2])
 
     def test_string_addition_case(self):
+        assert type(string_addition_case) == str
         assert string_addition_case == self.test_cases_list[3]
 
     def test_array_addition_case(self):
+        assert type(array_addition_case) == list
         assert str(array_addition_case) == self.test_cases_list[4]
 
     def test_dictionary_addition_case(self):
+        assert type(dictionary_addition_case) == dict
         assert str(dictionary_addition_case) == self.test_cases_list[5]
