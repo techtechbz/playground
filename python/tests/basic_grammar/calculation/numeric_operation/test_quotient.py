@@ -1,6 +1,6 @@
 import pytest
 
-from basic_grammar.calculation.quotient import \
+from basic_grammar.calculation.numeric_operation.quotient import \
     calculating_natural_number_quotient, \
     natural_number_quotient, \
     decimal_quotient, \

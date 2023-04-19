@@ -1,6 +1,6 @@
 import pytest
 
-from basic_grammar.calculation.remainder import \
+from basic_grammar.calculation.numeric_operation.remainder import \
     calculating_natural_number_remainder, \
     natural_number_remainder, \
     zero_remainder, \
@@ -14,7 +14,7 @@ from basic_grammar.calculation.remainder import \
 from tests.get_file_path import get_file_path
 
 
-class TestAddition:
+class TestRemainder:
     @classmethod
     def setup_class(cls):
         test_cases_path = get_file_path(__file__)
@@ -42,7 +42,7 @@ class TestAddition:
 
     def test_divide_natural_number_by_decimal_remainder(self):
         assert type(divide_natural_number_by_decimal_remainder) == float
-        assert divide_natural_number_by_decimal_remainder == int(self.test_cases_list[5])
+        assert divide_natural_number_by_decimal_remainder == float(self.test_cases_list[5])
 
     def test_remainder_of_negative_number(self):
         assert type(remainder_of_negative_number) == int

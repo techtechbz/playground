@@ -1,4 +1,4 @@
-from basic_grammar.calculation.addition import \
+from basic_grammar.calculation.numeric_operation.addition import \
     natural_number_addition_case, \
     decimal_addition_case, \
     negative_number_addition_case, \

@@ -1,6 +1,6 @@
 import { naturalNumberMultiplicationCase, naturalNumberResultMultiplicationCase, decimalResultCase, multiplyingDecimalCase,
-  decimalByDecimalReturnsNaturalNumberCase, multiplicationOverNegativeNumbersCase, negativeNumberResultMultiplicationCase, negativeNumberCalculatingMultiplicationCase } from '@/grammar/calculation/multiplication';
-import { getTestCases } from '../../getTestCase';
+  decimalByDecimalReturnsNaturalNumberCase, multiplicationOverNegativeNumbersCase, negativeNumberResultMultiplicationCase, negativeNumberCalculatingMultiplicationCase } from '@/grammar/calculation/numeric_operation/multiplication';
+import { getTestCases } from '../../../getTestCase';
 
 const testCases = getTestCases(__filename)
 
