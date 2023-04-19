@@ -1,4 +1,4 @@
-from basic_grammar.calculation.multiplication import \
+from basic_grammar.calculation.numeric_operation.multiplication import \
     natural_number_multiplication_case,\
     natural_number_result_multiplication_case,\
     decimal_result_case,\

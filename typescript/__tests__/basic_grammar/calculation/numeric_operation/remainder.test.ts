@@ -10,12 +10,12 @@ import {
   positiveNumberRemainder,
   divideByZeroRemainder,
   zeroDivision
-} from '@/grammar/calculation/remainder';
-import { getTestCases } from '../../getTestCase';
+} from '@/grammar/calculation/numeric_operation/remainder';
+import { getTestCases } from '../../../getTestCase';
 
 const testCases = getTestCases(__filename)
 
-describe('quotient test', () => {
+describe('remainder test', () => {
   test('get test data test', () => {
     expect(testCases.length).toBe(11)
   })

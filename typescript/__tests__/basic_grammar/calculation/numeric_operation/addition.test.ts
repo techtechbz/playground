@@ -1,5 +1,5 @@
-import { naturalNumberAdditionCase, decimalAdditionCase, negativeNumberAdditionCase, stringAdditionCase } from '@/grammar/calculation/addition';
-import { getTestCases } from '../../getTestCase';
+import { naturalNumberAdditionCase, decimalAdditionCase, negativeNumberAdditionCase, stringAdditionCase } from '@/grammar/calculation/numeric_operation/addition';
+import { getTestCases } from '../../../getTestCase';
 
 const testCases = getTestCases(__filename)
 

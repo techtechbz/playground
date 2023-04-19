@@ -1,6 +1,6 @@
 import { calculatingNaturalNumberQuotient, naturalNumberQuotient, decimalQuotient, divideByNaturalNumberQuotient, divideNaturalNumberByDecimalQuotient, calculatingDecimalQuotient,
-  quotientOfNegativeNumber, divideByNegativeNumberQuotient, positiveNumberQuotient, divideByZeroQuotient, zeroDivision } from '@/grammar/calculation/quotient';
-import { getTestCases } from '../../getTestCase';
+  quotientOfNegativeNumber, divideByNegativeNumberQuotient, positiveNumberQuotient, divideByZeroQuotient, zeroDivision } from '@/grammar/calculation/numeric_operation/quotient';
+import { getTestCases } from '../../../getTestCase';
 
 const testCases = getTestCases(__filename)
 
