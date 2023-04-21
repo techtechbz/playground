@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "execute": "./node_modules/.bin/ts-node ./basic_grammar/calculation/remainder.ts",
+    "execute": "./node_modules/.bin/ts-node ./basic_grammar/operation/bitwise/disjunction.ts",
     "test:ci": "jest --ci",
     "test:coverage": "jest --coverage"
   },

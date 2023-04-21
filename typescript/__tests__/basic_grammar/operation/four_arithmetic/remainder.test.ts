@@ -1,15 +1,15 @@
 import {
-  calculatingNaturalNumberRemainder, 
-  naturalNumberRemainder, 
-  zeroRemainder,
-  zeroByDecimalRemainder,
-  divideByNaturalNumberRemainder,
-  divideNaturalNumberByDecimalRemainder,
-  remainderOfNegativeNumber,
-  divideByNegativeNumberRemainder,
-  positiveNumberRemainder,
+  numberAndNumberRemainder,
+  decimalAndDecimalRemainder,
+  numberAndNumberToZeroRemainder,
+  decimalAndDecimalToZeroRemainder,
+  decimalAndNumberRemainder,
+  numberAndDecimalRemainder,
+  negativeAndPositiveRemainder,
+  positiveAndNegativeRemainder,
+  negativeAndNegativeRemainder,
   divideByZeroRemainder,
-  zeroDivision
+  zeroDivision  
 } from '@/grammar/operation/four_arithmetic/remainder';
 import { getTestCases } from '../../../getTestCase';
 
@@ -20,47 +20,47 @@ describe('remainder test', () => {
     expect(testCases.length).toBe(11)
   })
   
-  test('calculating natural number remainder test', () => {
-    expect(testCases[0]).toBe(calculatingNaturalNumberRemainder.toString())
+  test('number and number remainder case test', () => {
+    expect(Number(testCases[0])).toBe(numberAndNumberRemainder)
   })
   
-  test('natural number remainder test', () => {
-    expect(testCases[1]).toBe(naturalNumberRemainder.toString())
+  test('decimal and decimal remainder case test', () => {
+    expect(Number(testCases[1])).toBe(decimalAndDecimalRemainder)
   })
 
-  test("zero remainder test", () => {
-    expect(testCases[2]).toBe(zeroRemainder.toString())
+  test("number and number to zero remainder case test", () => {
+    expect(Number(testCases[2])).toBe(numberAndNumberToZeroRemainder)
   })
 
-  test("zero by decimal remainder test", () => {
-    expect(testCases[3]).toBe(zeroByDecimalRemainder.toString())
+  test("decimal and decimal to zero remainder case test", () => {
+    expect(Number(testCases[3])).toBe(decimalAndDecimalToZeroRemainder)
   })
 
-  test("divide by natural number remainder test", () => {
-    expect(testCases[4]).toBe(divideByNaturalNumberRemainder.toString())
+  test("decimal and number remainder case test", () => {
+    expect(Number(testCases[4])).toBe(decimalAndNumberRemainder)
   })
 
-  test("divide natural number by decimal remainder test", () => {
-    expect(testCases[5]).toBe(divideNaturalNumberByDecimalRemainder.toString())
+  test("number and decimal remainder case test", () => {
+    expect(Number(testCases[5])).toBe(numberAndDecimalRemainder)
   })
 
-  test("remaider of negative number test", () => {
-    expect(testCases[6]).toBe(remainderOfNegativeNumber.toString())
+  test("negative and positive remainder case test", () => {
+    expect(Number(testCases[6])).toBe(negativeAndPositiveRemainder)
   })
 
-  test("devide by negative number remainder test", () => {
-    expect(testCases[7]).toBe(divideByNegativeNumberRemainder.toString())
+  test("positive and negative remainder case test", () => {
+    expect(Number(testCases[7])).toBe(positiveAndNegativeRemainder)
   })
 
-  test("positive number remainder test", () => {
-    expect(testCases[8]).toBe(positiveNumberRemainder.toString())
+  test("negative and negative remainder case test", () => {
+    expect(Number(testCases[8])).toBe(negativeAndNegativeRemainder)
   })
 
   test("divide by zero remainder test", () => {
-    expect(testCases[9]).toBe(divideByZeroRemainder.toString())
+    expect(Number(testCases[9])).toBe(divideByZeroRemainder)
   })
 
   test("zero division test", () => {
-    expect(testCases[10]).toBe(zeroDivision.toString())
+    expect(Number(testCases[10])).toBe(zeroDivision)
   })
 })
