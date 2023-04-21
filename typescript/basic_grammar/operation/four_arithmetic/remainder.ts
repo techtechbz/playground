@@ -1,23 +1,23 @@
-export const calculatingNaturalNumberRemainder = 9 % 2
-export const naturalNumberRemainder = 9.0 % 2.0
-export const zeroRemainder = 10 % 2
-export const zeroByDecimalRemainder = 10.0 % 2.0
-export const divideByNaturalNumberRemainder = 9.0 % 2
-export const divideNaturalNumberByDecimalRemainder = 9 % 2.0
-export const remainderOfNegativeNumber = -5 % 2
-export const divideByNegativeNumberRemainder = 5 % -2
-export const positiveNumberRemainder = -5 % -2
+export const numberAndNumberRemainder = 9 % 2
+export const decimalAndDecimalRemainder = 9.0 % 2.0
+export const numberAndNumberToZeroRemainder = 10 % 2
+export const decimalAndDecimalToZeroRemainder = 10.0 % 2.0
+export const decimalAndNumberRemainder = 9.0 % 2
+export const numberAndDecimalRemainder = 9 % 2.0
+export const negativeAndPositiveRemainder = -5 % 2
+export const positiveAndNegativeRemainder = 5 % -2
+export const negativeAndNegativeRemainder = -5 % -2
 export const divideByZeroRemainder = 0 % -2
 export const zeroDivision = -4 % 0
 
-console.log(calculatingNaturalNumberRemainder)
-console.log(naturalNumberRemainder)
-console.log(zeroRemainder)
-console.log(zeroByDecimalRemainder)
-console.log(divideByNaturalNumberRemainder)
-console.log(divideNaturalNumberByDecimalRemainder)
-console.log(remainderOfNegativeNumber)
-console.log(divideByNegativeNumberRemainder)
-console.log(positiveNumberRemainder)
+console.log(numberAndNumberRemainder)
+console.log(decimalAndDecimalRemainder)
+console.log(numberAndNumberToZeroRemainder)
+console.log(decimalAndDecimalToZeroRemainder)
+console.log(decimalAndNumberRemainder)
+console.log(numberAndDecimalRemainder)
+console.log(negativeAndPositiveRemainder)
+console.log(positiveAndNegativeRemainder)
+console.log(negativeAndNegativeRemainder)
 console.log(divideByZeroRemainder)
 console.log(zeroDivision)
