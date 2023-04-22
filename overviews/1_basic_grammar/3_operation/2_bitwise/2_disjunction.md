@@ -74,7 +74,7 @@ console.log(50 | 21)
 console.log(50 | -21)
 console.log(-50 | 21)
 console.log(-50 | -21)
-// 論理積の演算で小数が含まれている場合、小数点以下を切り捨てた値で実行される
+// 小数が含まれている場合、小数点以下を切り捨てた値で実行される
 console.log(50 | 21.9)
 console.log(50.9 | 21)
 console.log(50.9 | 21.9)
