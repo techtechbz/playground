@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "execute": "./node_modules/.bin/ts-node ./basic_grammar/operation/bitwise/disjunction.ts",
+    "execute": "./node_modules/.bin/ts-node ./basic_grammar/operation/bitwise/rightShift.ts",
     "test:ci": "jest --ci",
     "test:coverage": "jest --coverage"
   },
