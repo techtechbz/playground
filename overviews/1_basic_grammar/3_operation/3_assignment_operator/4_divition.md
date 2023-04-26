@@ -98,7 +98,7 @@ export const divisionAssignmentOperator = () => {
   return a
 }
 
-export const decimalMultiplicationAssignmentOperator = () => {
+export const decimalDivisionAssignmentOperator = () => {
   let a = 243
   for (let i = 0; i < 5; i++) {
     a /= 1.5
@@ -106,7 +106,7 @@ export const decimalMultiplicationAssignmentOperator = () => {
   return a
 }
 
-export const negativeMultiplicationAssignmentOperator = () => {
+export const negativeDivisionAssignmentOperator = () => {
   let a = 64
   for (let i = 0; i < 5; i++) {
     a /= -2
@@ -114,8 +114,8 @@ export const negativeMultiplicationAssignmentOperator = () => {
   return a
 }
 
-console.log(additionAssignmentOperator())
-console.log(decimalMultiplicationAssignmentOperator())
-console.log(negativeMultiplicationAssignmentOperator())
+console.log(divisionAssignmentOperator())
+console.log(decimalDivisionAssignmentOperator())
+console.log(negativeDivisionAssignmentOperator())
 
 ```
