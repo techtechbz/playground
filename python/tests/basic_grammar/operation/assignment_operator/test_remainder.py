@@ -29,4 +29,4 @@ class TestRemainderAssignmentOperator:
         result = negative_remainder_assignment_operator()
         assert type(result) == int
         assert result != int(self.test_cases_list[2])
-        assert result == -int(self.test_cases_list[2])
+        assert result == -(7 - int(self.test_cases_list[2]))
