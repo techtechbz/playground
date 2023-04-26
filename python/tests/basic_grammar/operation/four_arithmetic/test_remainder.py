@@ -47,10 +47,12 @@ class TestRemainder:
 
     def test_negative_and_positive_remainder_case(self):
         assert type(negative_and_positive_remainder) == int
+        assert negative_and_positive_remainder != int(self.test_cases_list[6])
         assert negative_and_positive_remainder == -int(self.test_cases_list[6])
 
     def test_positive_and_negative_remainder_case(self):
         assert type(positive_and_negative_remainder) == int
+        assert positive_and_negative_remainder != int(self.test_cases_list[7])
         assert positive_and_negative_remainder == -int(self.test_cases_list[7])
 
     def test_negative_and_negative_remainder_case(self):

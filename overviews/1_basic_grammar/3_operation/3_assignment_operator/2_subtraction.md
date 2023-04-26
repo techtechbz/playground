@@ -169,7 +169,7 @@ export const negativeSubtractionAssignmentOperator = () => {
   return a
 }
 
-console.log(additionAssignmentOperator())
+console.log(subtractionAssignmentOperator())
 console.log(backSubtractionAssignmentOperator())
 console.log(frontSubtractionAssignmentOperator())
 console.log(decimalSubtractionAssignmentOperator())

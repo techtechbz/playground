@@ -17,8 +17,8 @@ class TestDivisionAssignmentOperator:
     
     def test_division_assignment_operator_case(self):
         result = division_assignment_operator()
-        assert type(result) == int
-        assert result == int(self.test_cases_list[0])
+        assert type(result) == float
+        assert result == float(self.test_cases_list[0])
 
     def test_decimal_division_assignment_operator_case(self):
         result = decimal_division_assignment_operator()
@@ -27,5 +27,5 @@ class TestDivisionAssignmentOperator:
 
     def test_negative_division_assignment_operator_case(self):
         result = negative_division_assignment_operator()
-        assert type(result) == int
-        assert result == int(self.test_cases_list[2])
+        assert type(result) == float
+        assert result == float(self.test_cases_list[2])

@@ -114,7 +114,7 @@ export const negativeMultiplicationAssignmentOperator = () => {
   return a
 }
 
-console.log(additionAssignmentOperator())
+console.log(multiplicationAssignmentOperator())
 console.log(decimalMultiplicationAssignmentOperator())
 console.log(negativeMultiplicationAssignmentOperator())
 
